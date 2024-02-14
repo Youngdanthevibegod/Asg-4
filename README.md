@@ -1,14 +1,14 @@
 # Asg-4
-a) Purpose of the Program(s): The purpose of the grading program is to ask the user to input their overall grade percentage, between 0 and 1, and then print the corresponding letter grade to the terminal.
+**a) Purpose of the Program(s):** The purpose of the factor program is to  allow the users to choose between 3 modes: LCM, GCF, and Stop. In GCF, the program should take two integers and input and compute the greatest common factor between those values. In each of those modes, the program should confirm that the user input is acceptable, if not the program should continue to prompt the user until the input is acceptable. After completing the task, the program should ask the user what they want to do, and should only stop after the user inputs ‘Stop’ as the mode.
 
-The purpose of the month program is to ask the user to input the month's name as input, and then print the expected number of days in that month in the year 2023 CE.
+The purpose of the passage program is to take two inputs: a passage of at least 200 characters, and a character. The program should then scan the passage for the number of occurrences of the specified character. If the character is not contained in the passage, the program should prompt the user to ask the user to give another character. If the user uses a passage of insufficient size the program should inform them of the number of characters contained in their passage and prompt them to enter another passage.
 
-b) Input: The grading program's input is the overall grade given by the user. The monthly program's input is the month the user provides.
+**b) Input:** The factor program's input is the Modes and two numbers given by the user. The passage program's input is the letter the user provides.
 
-c) Expected Output: The grading program's output is a letter grade from the given information. The monthly program comes out as the number of days of the given information.
+**c) Expected Output:** The factor program's output is GCF, LCM, or Stop  from the given information. The passage program comes out as the number of times the letter is in each passage.
 
-d) Type of Execution: The type(s) of execution for the grading and monthly program is the Conditional execution.
+**d) Type of Execution:** The type(s) of execution for the factor and passage program is Conditional execution.
 
-e) Possible Improvements: The grading program could be improved by: My program currently does not accept integers as an input for the letter grades so I could also allow the program to allow both integers and float variable types with a few adjustments in my program. Also with more data inputted, I can have an ordered list of what grade each student got for their scores.
+**e) Possible Improvements:** The factor program could be improved by: I could explain parts of what my code does.
 
-The monthly could be improved by: Having the else error print out (this program only accepts uppercase input). Also If I was more knowledgeable about Python I could find a way to reduce the repetitive coding.
+The passage could be improved by: I could also explain what my code does here and use a input for the passages.
